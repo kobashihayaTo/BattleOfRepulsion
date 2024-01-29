@@ -212,6 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 162879873}
   - component: {fileID: 162879874}
+  - component: {fileID: 162879875}
   m_Layer: 3
   m_Name: Square
   m_TagString: Untagged
@@ -272,9 +273,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0, g: 0.9538593, b: 1, a: 1}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 203adcab95400124cb6b2fe9c0f40c99, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -284,6 +285,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &162879875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162879872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8461ba8208e25904191197b285ee282c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderer: {fileID: 0}
 --- !u!1 &168958784
 GameObject:
   m_ObjectHideFlags: 0
@@ -2210,7 +2224,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ca781601c2766c746aeae448c372da02, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3beef949b31c00449f474cd90038576, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2242,6 +2256,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6777459195361799000, guid: 2fd9126ef5a59a6428e22a3a08a4bc4d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 203adcab95400124cb6b2fe9c0f40c99, type: 3}
     - target: {fileID: 6777459195361799001, guid: 2fd9126ef5a59a6428e22a3a08a4bc4d, type: 3}
       propertyPath: m_RootOrder
       value: 4
